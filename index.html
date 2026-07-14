@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADHD Tích Cực - Trần Nhật Minh | Trở Về Từ Hỗn Loạn</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            900: '#14532d',
+                        },
+                        dark: {
+                            950: '#020617',
+                            900: '#0f172a',
+                            800: '#1e293b',
+                            700: '#334155',
+                            600: '#475569',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        /* Custom scrollbar for neurodivergent focus */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #020617;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #15803d;
+            border-radius: 4px;
+        }
+        .glass-panel {
+            background: rgba(15, 23, 42, 0.65);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+        .text-glow {
+            text-shadow: 0 0 20px rgba(34, 197, 94, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-dark-950 text-slate-100 min-h-screen selection:bg-brand-500 selection:text-white">
+
+    <!-- Floating Top Nav -->
+    <nav class="fixed top-0 left-0 right-0 z-40 glass-panel border-b border-slate-800/80 transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+            <a href="#" class="flex items-center space-x-2">
+                <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-brand-500 to-emerald-400 flex items-center justify-center font-bold text-white text-sm">
+                    A+
+                </div>
+                <span class="font-extrabold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-white to-slate-400 text-xs sm:text-sm">
+                    ADHD TÍCH CỰC
+                </span>
+            </a>
+            <div class="hidden md:flex items-center space-x-6 text-sm font-medium text-slate-300">
+                <a href="#quick-links" class="hover:text-brand-500 transition-colors">⚡ Quick Links</a>
+                <a href="#free-resources" class="hover:text-brand-500 transition-colors">🎁 Miễn Phí</a>
+                <a href="#paid-resources" class="hover:text-brand-500 transition-colors">📚 Tủ Sách trả phí</a>
+                <a href="#community" class="hover:text-brand-500 transition-colors">💬 Cộng đồng</a>
+                <a href="#diagnosis" class="hover:text-brand-500 transition-colors">🩺 Chẩn đoán</a>
+            </div>
+            <a href="#diagnosis" class="bg-brand-600 hover:bg-brand-500 text-white font-semibold text-xs px-4 py-2 rounded-full shadow-lg shadow-brand-900/30 transition-all transform hover:-translate-y-0.5">
+                Đăng Ký Chẩn Đoán 🩺
+            </a>
+        </div>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header class="pt-24 pb-6 px-4 relative overflow-hidden bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-brand-950/20 via-dark-950 to-dark-950 border-b border-slate-900">
+        <!-- Visual Backdrop Effect -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-500/5 rounded-full blur-[130px] pointer-events-none"></div>
+
+        <div class="max-w-4xl mx-auto text-center relative z-10 space-y-6">
+            <!-- Modified Subtitle smaller tag based on request #1 -->
+            <span class="inline-flex max-w-2xl px-4 py-2 rounded-2xl text-xs font-medium bg-brand-950/60 text-brand-400 border border-brand-500/20 leading-relaxed shadow-inner">
+                ✨ Dự án nghiên cứu chuyên sâu & độc lập về ADHD & Neurodivergents, lan tỏa nhận thức xã hội về các hội chứng tâm lý Đa dạng Thần kinh - (Tự kỷ, Tăng động Giảm chú ý ...)
+            </span>
+
+            <!-- Brand Logo image instead of text based on request #2 (with invert filter for contrast) -->
+            <div class="py-4">
+                <img src="./images/adhdtichcuclogo_trans.png" alt="ADHD Tích Cực Logo" class="mx-auto h-24 md:h-28 object-contain" style="filter: brightness(0) invert(1);" onerror="this.onerror=null; this.src='https://placehold.co/400x120/1e293b/ffffff?text=ADHD+TICHCUC';" />
+            </div>
+
+            <!-- Founder Trần Nhật Minh Profile - Positioned immediately below header based on request #3 -->
+            <div class="glass-panel rounded-3xl p-6 md:p-8 max-w-3xl mx-auto text-left border border-slate-800/80 shadow-2xl relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-brand-500/5 rounded-full blur-2xl pointer-events-none"></div>
+                <div class="flex flex-col md:flex-row items-center gap-6 md:gap-8">
+                    <div class="relative group">
+                        <div class="absolute -inset-0.5 bg-gradient-to-tr from-brand-500 to-emerald-400 rounded-2xl blur opacity-30 group-hover:opacity-50 transition duration-300"></div>
+                        <img src="./images/nmt.jpg" alt="Trần Nhật Minh" class="relative w-32 h-32 md:w-36 md:h-36 rounded-2xl object-cover border border-slate-700 shadow-md" onerror="this.onerror=null; this.src='https://placehold.co/150x150/1e293b/ffffff?text=Tran+Nhat+Minh';" />
+                    </div>
+                    <div class="flex-1 space-y-3">
+                        <span class="inline-block text-[10px] font-bold text-brand-400 tracking-widest uppercase bg-brand-950/80 border border-brand-500/20 px-2.5 py-1 rounded-md">Founder dự án</span>
+                        <h2 class="text-2xl md:text-3xl font-extrabold text-white tracking-tight">Trần Nhật Minh</h2>
+                        <p class="text-slate-300 text-sm font-light leading-relaxed">
+                            Nhà nghiên cứu tâm lý độc lập, bắt đầu hành trình tự trị liệu - không dùng thuốc đối với chứng ADHD và nghiên cứu chuyên sâu về các vấn đề xoay quanh hội chứng này. Từ sự thấu cảm sâu sắc đối với những người có hệ thần kinh đa dạng (Neurodivergent), anh đã phát triển <strong class="text-brand-400 font-medium">Phương pháp Trị liệu Nội Vai (Inner Role Therapy - IRT)</strong> giúp hàng ngàn người trưởng thành chuyển đổi cuộc đời từ hỗn loạn sang tĩnh lặng và an lành.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Bio-Links Hub Section -->
+    <section id="quick-links" class="py-12 px-4 max-w-lg mx-auto">
+        <div class="text-center mb-8">
+            <h2 class="text-2xl font-extrabold tracking-tight">LIÊN KẾT TRUY CẬP NHANH</h2>
+            <p class="text-xs text-slate-400 mt-1">Dành cho thiết bị di động & truy cập nhanh các nguồn lực</p>
+        </div>
+
+        <div class="space-y-4">
+            <!-- Link 1: IRT09 -->
+            <a href="https://innerroletherapy.com/irt09" target="_blank" class="w-full flex items-center p-4 rounded-2xl bg-gradient-to-r from-brand-950 to-emerald-950 hover:from-brand-900 hover:to-emerald-900 border border-brand-500/30 hover:border-brand-500 group transition-all duration-300 text-left shadow-lg">
+                <div class="w-12 h-12 rounded-xl bg-brand-500 text-white flex items-center justify-center text-xl font-bold shadow-inner group-hover:scale-110 transition-transform">
+                    🧠
+                </div>
+                <div class="ml-4 flex-1">
+                    <div class="flex items-center space-x-1.5">
+                        <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[9px] font-medium bg-red-950 text-red-400 border border-red-500/20">HOT</span>
+                        <h3 class="font-bold text-sm text-white group-hover:text-brand-400 transition-colors">1. Tuyển sinh IRT09</h3>
+                    </div>
+                    <p class="text-xs text-slate-300">Khóa huấn luyện nhóm Trị liệu nội vai Khóa 09 sắp khai giảng</p>
+                </div>
+                <span class="text-slate-400 group-hover:text-brand-400 transition-colors">➔</span>
+            </a>
+
+            <!-- Link 2: Tài nguyên miễn phí -->
+            <a href="#free-resources" class="w-full flex items-center p-4 rounded-2xl glass-panel hover:bg-slate-900/40 hover:border-brand-500/50 group transition-all duration-300 text-left shadow-lg">
+                <div class="w-12 h-12 rounded-xl bg-brand-900/40 text-brand-400 flex items-center justify-center text-xl shadow-inner group-hover:scale-110 transition-transform">
+                    🎁
+                </div>
+                <div class="ml-4 flex-1">
+                    <h3 class="font-bold text-sm text-white group-hover:text-brand-400 transition-colors">2. Tài Nguyên Miễn Phí</h3>
+                    <p class="text-xs text-slate-400">Playlist nhạc, bài dẫn thiền và cẩm nang thoát khỏi trì hoãn</p>
+                </div>
+                <span class="text-slate-500 group-hover:text-brand-400 transition-colors">➔</span>
+            </a>
+
+            <!-- Link 3: Tài nguyên trả phí -->
+            <a href="#paid-resources" class="w-full flex items-center p-4 rounded-2xl glass-panel hover:bg-slate-900/40 hover:border-brand-500/50 group transition-all duration-300 text-left shadow-lg">
+                <div class="w-12 h-12 rounded-xl bg-brand-900/40 text-brand-400 flex items-center justify-center text-xl shadow-inner group-hover:scale-110 transition-transform">
+                    📚
+                </div>
+                <div class="ml-4 flex-1">
+                    <h3 class="font-bold text-sm text-white group-hover:text-brand-400 transition-colors">3. Sách & Tài Liệu Trả Phí</h3>
+                    <p class="text-xs text-slate-400">Khám phá các đầu sách độc bản của tác giả Trần Nhật Minh</p>
+                </div>
+                <span class="text-slate-500 group-hover:text-brand-400 transition-colors">➔</span>
+            </a>
+
+            <!-- Link 4: Cộng đồng -->
+            <a href="#community" class="w-full flex items-center p-4 rounded-2xl glass-panel hover:bg-slate-900/40 hover:border-brand-500/50 group transition-all duration-300 text-left shadow-lg">
+                <div class="w-12 h-12 rounded-xl bg-brand-900/40 text-brand-400 flex items-center justify-center text-xl shadow-inner group-hover:scale-110 transition-transform">
+                    💬
+                </div>
+                <div class="ml-4 flex-1">
+                    <h3 class="font-bold text-sm text-white group-hover:text-brand-400 transition-colors">4. Cộng Đồng ADHD Tích Cực</h3>
+                    <p class="text-xs text-slate-400">Giao lưu thảo luận, chia sẻ từ hàng vạn Neurodivergents</p>
+                </div>
+                <span class="text-slate-500 group-hover:text-brand-400 transition-colors">➔</span>
+            </a>
+
+            <!-- Link 5: Đăng ký chẩn đoán -->
+            <a href="#diagnosis" class="w-full flex items-center p-4 rounded-2xl glass-panel hover:bg-slate-900/40 hover:border-brand-500/50 group transition-all duration-300 text-left shadow-lg">
+                <div class="w-12 h-12 rounded-xl bg-brand-900/40 text-brand-400 flex items-center justify-center text-xl shadow-inner group-hover:scale-110 transition-transform">
+                    🩺
+                </div>
+                <div class="ml-4 flex-1">
+                    <h3 class="font-bold text-sm text-white group-hover:text-brand-400 transition-colors">5. Đăng Ký Chẩn Đoán Sơ Bộ</h3>
+                    <p class="text-xs text-slate-400">Khảo sát chỉ số tâm lý & nhận tư vấn giải pháp trị liệu</p>
+                </div>
+                <span class="text-slate-500 group-hover:text-brand-400 transition-colors">➔</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Free Resources Section -->
+    <section id="free-resources" class="py-16 px-4 max-w-6xl mx-auto border-t border-slate-900">
+        <div class="text-center mb-12">
+            <span class="text-xs font-bold text-brand-500 tracking-widest uppercase">QUÀ TẶNG Ý NGHĨA</span>
+            <h2 class="text-3xl font-black mt-2 tracking-tight">TÀI NGUYÊN MIỄN PHÍ</h2>
+            <p class="text-slate-400 mt-2 max-w-md mx-auto text-sm">Các công cụ hỗ trợ cân bằng tần số não bộ, giải phóng sương mù não được chọn lọc kỹ càng.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            <!-- 1. Soundtherapy -->
+            <div class="rounded-3xl glass-panel p-6 border border-slate-800 flex flex-col justify-between hover:border-brand-500/40 transition-all shadow-xl group">
+                <div class="space-y-3">
+                    <div class="w-12 h-12 rounded-2xl bg-[#1DB954]/20 text-[#1DB954] flex items-center justify-center text-2xl group-hover:scale-105 transition-transform">
+                        🎵
+                    </div>
+                    <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition-colors">Soundtherapy for Neurodivergent</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed font-light">
+                        Playlist nhạc tần số chữa lành độc quyền dành riêng cho hệ thần kinh ADHD, giúp hỗ trợ tập trung tối đa và làm dịu sự bồn chồn.
+                    </p>
+                </div>
+                <a href="https://open.spotify.com/playlist/7J4bK0P2j9j7" target="_blank" class="mt-6 w-full text-center bg-[#1DB954] hover:bg-[#1ed760] text-black font-extrabold text-xs py-3 rounded-xl transition-all shadow-md">
+                    Nghe trên Spotify ➔
+                </a>
+            </div>
+
+            <!-- 2. Thiền ngủ -->
+            <div class="rounded-3xl glass-panel p-6 border border-slate-800 flex flex-col justify-between hover:border-brand-500/40 transition-all shadow-xl group">
+                <div class="space-y-3">
+                    <div class="w-12 h-12 rounded-2xl bg-[#FF0000]/20 text-[#FF0000] flex items-center justify-center text-2xl group-hover:scale-105 transition-transform">
+                        🧘‍♂️
+                    </div>
+                    <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition-colors">Bài Dẫn Thiền Ngủ</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed font-light">
+                        Playlist các bài thiền ngủ sâu, đưa sóng não về trạng thái Delta nghỉ ngơi lý tưởng sau một ngày làm việc quá tải.
+                    </p>
+                </div>
+                <a href="https://youtube.com/playlist?list=PLadhdtichcuc" target="_blank" class="mt-6 w-full text-center bg-[#FF0000] hover:bg-[#ff2424] text-white font-bold text-xs py-3 rounded-xl transition-all shadow-md">
+                    Nghe trên YouTube ➔
+                </a>
+            </div>
+
+            <!-- 3. Tài liệu miễn phí -->
+            <div class="rounded-3xl glass-panel p-6 border border-slate-800 flex flex-col justify-between hover:border-brand-500/40 transition-all shadow-xl group">
+                <div class="space-y-3">
+                    <div class="w-12 h-12 rounded-2xl bg-brand-500/20 text-brand-400 flex items-center justify-center text-2xl group-hover:scale-105 transition-transform">
+                        📄
+                    </div>
+                    <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition-colors">5 Bước Thoát Khỏi Trì Hoãn</h3>
+                    <p class="text-xs text-slate-400 leading-relaxed font-light">
+                        Tài liệu hướng dẫn thực chiến từng bước tháo gỡ sự đóng băng chức năng điều hành, thiết lập động lực hành động tức thì.
+                    </p>
+                </div>
+                <button onclick="openModal('downloadModal')" class="mt-6 w-full text-center bg-brand-600 hover:bg-brand-500 text-white font-bold text-xs py-3 rounded-xl transition-all shadow-md">
+                    Nhận Ebook Miễn Phí ➔
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Paid Resources Section -->
+    <section id="paid-resources" class="py-16 px-4 max-w-6xl mx-auto border-t border-slate-900">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-black mt-2 tracking-tight">SÁCH & TÀI LIỆU CHUYÊN SÂU</h2>
+            <p class="text-slate-400 mt-2 max-w-xl mx-auto text-sm leading-relaxed">Các công trình tự nghiên cứu của tác giả Trần Nhật Minh và team dự án, cung cấp tấm bản đồ toàn diện vượt thoát khỏi sương mù và hỗn loạn.</p>
+        </div>
+
+        <!-- Part 1: Dành cho người trưởng thành -->
+        <div class="mb-16">
+            <div class="flex items-center space-x-3 mb-6">
+                <span class="text-2xl">🧠</span>
+                <h3 class="text-xl font-bold text-white">Dành Cho Người Trưởng Thành</h3>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Book 1: Trở về từ Hỗn Loạn -->
+                <div class="rounded-2xl glass-panel border border-slate-800/80 p-5 flex flex-col justify-between hover:border-brand-500/30 transition-all shadow-lg">
+                    <div class="space-y-4">
+                        <div class="h-44 bg-gradient-to-r from-brand-900 to-brand-700 rounded-lg flex items-center justify-center p-3 relative overflow-hidden shadow-inner">
+                            <div class="text-center space-y-1">
+                                <h4 class="text-xs font-black text-white leading-tight">TRỞ VỀ TỪ HỖN LOẠN</h4>
+                                <p class="text-[7px] text-slate-300">Giải mã 13 biểu hiện & 6 rối loạn tâm lý</p>
+                            </div>
+                        </div>
+                        <h4 class="text-md font-bold text-white">Trở Về Từ Hỗn Loạn</h4>
+                        <p class="text-xs text-slate-400 font-light leading-relaxed line-clamp-3">
+                            Cuốn sách đầu tiên giải mã tường tận các hội chứng tâm lý ADHD, ASD, BPD, OCD... dưới góc nhìn thực tiễn của người Việt, đồng thời giới thiệu phương pháp Trị Liệu Nội Vai (IRT). Reference: "[TRẦN NHẬT MINH] Trở về từ Hỗn Loạn_2.pdf".
+                        </p>
+                    </div>
+                    <div class="mt-4 space-y-2">
+                        <button onclick="openToC('tro-ve-tu-hon-loan')" class="w-full text-[10px] font-semibold text-slate-300 bg-slate-800/80 hover:bg-slate-700/80 py-2 rounded-lg transition-all">
+                            📖 Xem Mục Lục
+                        </button>
+                        <a href="https://innerroletherapy.com" target="_blank" class="block w-full text-center text-[10px] font-bold text-white bg-brand-600 hover:bg-brand-500 py-2 rounded-lg transition-all">
+                            Tải Tài Liệu ➔
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Book 2: 160 FAQ -->
+                <div class="rounded-2xl glass-panel border border-slate-800/80 p-5 flex flex-col justify-between hover:border-brand-500/30 transition-all shadow-lg">
+                    <div class="space-y-4">
+                        <div class="h-44 bg-gradient-to-r from-slate-800 to-slate-700 rounded-lg flex items-center justify-center p-3 relative overflow-hidden shadow-inner">
+                            <div class="text-center space-y-1">
+                                <h4 class="text-xs font-black text-white leading-tight">ADHD NGƯỜI TRƯỞNG THÀNH</h4>
+                                <p class="text-[7px] text-slate-300">160 câu hỏi giúp gỡ rối tâm trí</p>
+                            </div>
+                        </div>
+                        <h4 class="text-md font-bold text-white">160FAQ: ADHD ở người trưởng thành</h4>
+                        <p class="text-xs text-slate-400 font-light leading-relaxed line-clamp-3">
+                            Cẩm nang giải đáp mọi ngóc ngách thắc mắc của người có ADHD hoặc nghi ngờ mắc ADHD trong đời sống thường nhật, khoa học não bộ và con đường làm chủ cảm xúc. Reference: "160FAQ_2.pdf".
+                        </p>
+                    </div>
+                    <div class="mt-4 space-y-2">
+                        <button onclick="openToC('160-faq')" class="w-full text-[10px] font-semibold text-slate-300 bg-slate-800/80 hover:bg-slate-700/80 py-2 rounded-lg transition-all">
+                            📖 Xem Mục Lục
+                        </button>
+                        <a href="https://innerroletherapy.com" target="_blank" class="block w-full text-center text-[10px] font-bold text-white bg-brand-600 hover:bg-brand-500 py-2 rounded-lg transition-all">
+                            Tải Tài Liệu ➔
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Book 3: Sương mù não -->
+                <div class="rounded-2xl glass-panel border border-slate-800/80 p-5 flex flex-col justify-between hover:border-brand-500/30 transition-all shadow-lg">
+                    <div class="space-y-4">
+                        <div class="h-44 bg-gradient-to-r from-cyan-950 to-cyan-850 rounded-lg flex items-center justify-center p-3 relative overflow-hidden shadow-inner">
+                            <div class="text-center space-y-1">
+                                <h4 class="text-xs font-black text-white leading-tight">SƯƠNG MÙ NÃO</h4>
+                                <p class="text-[7px] text-slate-300">Giải pháp vượt qua kẻ hủy diệt thầm lặng</p>
+                            </div>
+                        </div>
+                        <h4 class="text-md font-bold text-white">Sương mù não: Kẻ huỷ diệt thầm lặng</h4>
+                        <p class="text-xs text-slate-400 font-light leading-relaxed line-clamp-3">
+                            Khôi phục sự sắc bén của trí tuệ một cách tự nhiên. Giải phóng sự trì trệ của tâm trí và lấy lại sự tỉnh táo 24/7. Reference: "[Trần Nhật Minh] Sương mù não - Kẻ hủy diệt thầm lặng_2.pdf".
+                        </p>
+                    </div>
+                    <div class="mt-4 space-y-2">
+                        <button onclick="openToC('suong-mu-nao')" class="w-full text-[10px] font-semibold text-slate-300 bg-slate-800/80 hover:bg-slate-700/80 py-2 rounded-lg transition-all">
+                            📖 Xem Mục Lục
+                        </button>
+                        <a href="https://innerroletherapy.com" target="_blank" class="block w-full text-center text-[10px] font-bold text-white bg-brand-600 hover:bg-brand-500 py-2 rounded-lg transition-all">
+                            Tải Tài Liệu ➔
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Book 4: 90 Life Hacks -->
+                <div class="rounded-2xl glass-panel border border-slate-800/80 p-5 flex flex-col justify-between hover:border-brand-500/30 transition-all shadow-lg">
+                    <div class="space-y-4">
+                        <div class="h-44 bg-gradient-to-r from-violet-950 to-violet-850 rounded-lg flex items-center justify-center p-3 relative overflow-hidden shadow-inner">
+                            <div class="text-center space-y-1">
+                                <h4 class="text-xs font-black text-white leading-tight">AUDHD 90 LIFE HACKS</h4>
+                                <p class="text-[7px] text-slate-300">90 thủ thuật & mẹo sống chung tốt đẹp</p>
+                            </div>
+                        </div>
+                        <h4 class="text-md font-bold text-white">AuDHD 90 Life Hacks</h4>
+                        <p class="text-xs text-slate-400 font-light leading-relaxed line-clamp-3">
+                            Tài liệu cứu nguy khẩn cấp cho người mang đồng thời cả hai hội chứng ADHD & Tự kỷ (AuDHD). Sắp xếp công việc, vệ sinh giấc ngủ và dập tắt meltdown. Reference: "[ADHDTICHCUC] AuDHD 90 Life Hacks_2.pdf".
+                        </p>
+                    </div>
+                    <div class="mt-4 space-y-2">
+                        <button onclick="openToC('audhd-hacks')" class="w-full text-[10px] font-semibold text-slate-300 bg-slate-800/80 hover:bg-slate-700/80 py-2 rounded-lg transition-all">
+                            📖 Xem Mục Lục
+                        </button>
+                        <a href="https://innerroletherapy.com" target="_blank" class="block w-full text-center text-[10px] font-bold text-white bg-brand-600 hover:bg-brand-500 py-2 rounded-lg transition-all">
+                            Tải Tài Liệu ➔
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Part 2: ADHD và Nghề Nghiệp -->
+        <div class="mb-16">
+            <div class="flex items-center space-x-3 mb-6">
+                <span class="text-2xl">💼</span>
+                <h3 class="text-xl font-bold text-white">ADHD Và Nghề Nghiệp</h3>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Book 5: Cẩm nang Founder & Freelancer -->
+                <div class="rounded-2xl glass-panel border border-slate-800/80 p-5 flex flex-col justify-between hover:border-brand-500/30 transition-all shadow-lg col-span-1 md:col-span-1">
+                    <div class="space-y-4">
+                        <div class="h-44 bg-gradient-to-r from-emerald-950 to-emerald-800 rounded-lg flex items-center justify-center p-3 relative overflow-hidden shadow-inner">
+                            <div class="text-center space-y-1">
+                                <h4 class="text-xs font-black text-white leading-tight">FOUNDER & FREELANCER</h4>
+                                <p class="text-[7px] text-slate-300">Sống sót & thịnh vượng không dùng thuốc</p>
+                            </div>
+                        </div>
+                        <h4 class="text-md font-bold text-white">Cẩm Nang Sống Sót Founder/Freelancer</h4>
+                        <p class="text-xs text-slate-400 font-light leading-relaxed line-clamp-3">
+                            Tài liệu dành riêng cho nhà khởi nghiệp và người làm tự do có hệ thần kinh đa dạng. Thiết lập quy trình, tối ưu AI và vận hành dòng tiền vững vàng. Reference: "[ADHDTICHCUC-CO] Cẩm nang Sống sót & Thịnh vượng dành cho Founder, Freelancer có ADHD_2.pdf".
+                        </p>
+                    </div>
+                    <div class="mt-4 space-y-2">
+                        <button onclick="openToC('founder-freelancer')" class="w-full text-[10px] font-semibold text-slate-300 bg-slate-800/80 hover:bg-slate-700/80 py-2 rounded-lg transition-all">
+                            📖 Xem Mục Lục
+                        </button>
+                        <a href="https://innerroletherapy.com" target="_blank" class="block w-full text-center text-[10px] font-bold text-white bg-brand-600 hover:bg-brand-500 py-2 rounded-lg transition-all">
+                            Tải Tài Liệu ➔
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Book 2: 160 FAQ -->
+                <div class="rounded-2xl glass-panel border border-slate-800/80 p-5 flex flex-col justify-between hover:border-brand-500/30 transition-all shadow-lg">
+                    <div class="space-y-4">
+                        <div class="h-44 bg-gradient-to-r from-slate-800 to-slate-700 rounded-lg flex items-center justify-center p-3 relative overflow-hidden shadow-inner">
+                            <div class="text-center space-y-1">
+                                <h4 class="text-xs font-black text-white leading-tight">ADHD NGƯỜI TRƯỞNG THÀNH</h4>
+                                <p class="text-[7px] text-slate-300">160 câu hỏi giúp gỡ rối tâm trí</p>
+                            </div>
+                        </div>
+                        <h4 class="text-md font-bold text-white">160 FAQ ADHD Người Lớn</h4>
+                        <p class="text-xs text-slate-400 font-light leading-relaxed line-clamp-3">
+                            Cẩm nang giải đáp mọi ngóc ngách thắc mắc của người có ADHD hoặc nghi ngờ mắc ADHD trong đời sống thường nhật, khoa học não bộ và con đường làm chủ cảm xúc. Reference: "160FAQ_2.pdf".
+                        </p>
+                    </div>
+                    <div class="mt-4 space-y-2">
+                        <button onclick="openToC('160-faq')" class="w-full text-[10px] font-semibold text-slate-300 bg-slate-800/80 hover:bg-slate-700/80 py-2 rounded-lg transition-all">
+                            📖 Xem Mục Lục
+                        </button>
+                        <a href="https://innerroletherapy.com" target="_blank" class="block w-full text-center text-[10px] font-bold text-white bg-brand-600 hover:bg-brand-500 py-2 rounded-lg transition-all">
+                            Đặt Mua Ngay ➔
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Book 3: Sương mù não -->
+                <div class="rounded-2xl glass-panel border border-slate-800/80 p-5 flex flex-col justify-between hover:border-brand-500/30 transition-all shadow-lg">
+                    <div class="space-y-4">
+                        <div class="h-44 bg-gradient-to-r from-cyan-950 to-cyan-850 rounded-lg flex items-center justify-center p-3 relative overflow-hidden shadow-inner">
+                            <div class="text-center space-y-1">
+                                <h4 class="text-xs font-black text-white leading-tight">SƯƠNG MÙ NÃO</h4>
+                                <p class="text-[7px] text-slate-300">Giải pháp vượt qua kẻ hủy diệt thầm lặng</p>
+                            </div>
+                        </div>
+                        <h4 class="text-md font-bold text-white">Sương Mù Não</h4>
+                        <p class="text-xs text-slate-400 font-light leading-relaxed line-clamp-3">
+                            Khôi phục sự sắc bén của trí tuệ một cách tự nhiên. Điều trị hậu COVID, giải phóng sự trì trệ của tế bào thần kinh và lấy lại tỉnh táo 24/7. Reference: "[Trần Nhật Minh] Sương mù não - Kẻ hủy diệt thầm lặng_2.pdf".
+                        </p>
+                    </div>
+                    <div class="mt-4 space-y-2">
+                        <button onclick="openToC('suong-mu-nao')" class="w-full text-[10px] font-semibold text-slate-300 bg-slate-800/80 hover:bg-slate-700/80 py-2 rounded-lg transition-all">
+                            📖 Xem Mục Lục
+                        </button>
+                        <a href="https://innerroletherapy.com" target="_blank" class="block w-full text-center text-[10px] font-bold text-white bg-brand-600 hover:bg-brand-500 py-2 rounded-lg transition-all">
+                            Đặt Mua Ngay ➔
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Book 4: 90 Life Hacks -->
+                <div class="rounded-2xl glass-panel border border-slate-800/80 p-5 flex flex-col justify-between hover:border-brand-500/30 transition-all shadow-lg">
+                    <div class="space-y-4">
+                        <div class="h-44 bg-gradient-to-r from-violet-950 to-violet-850 rounded-lg flex items-center justify-center p-3 relative overflow-hidden shadow-inner">
+                            <div class="text-center space-y-1">
+                                <h4 class="text-xs font-black text-white leading-tight">AUDHD 90 LIFE HACKS</h4>
+                                <p class="text-[7px] text-slate-300">90 thủ thuật & mẹo sống chung tốt đẹp</p>
+                            </div>
+                        </div>
+                        <h4 class="text-md font-bold text-white">AuDHD 90 Life Hacks</h4>
+                        <p class="text-xs text-slate-400 font-light leading-relaxed line-clamp-3">
+                            Tài liệu cứu nguy khẩn cấp cho người mang đồng thời cả hai hội chứng ADHD & Tự kỷ (AuDHD). Sắp xếp công việc, vệ sinh giấc ngủ và dập tắt meltdown. Reference: "[ADHDTICHCUC] AuDHD 90 Life Hacks_2.pdf".
+                        </p>
+                    </div>
+                    <div class="mt-4 space-y-2">
+                        <button onclick="openToC('audhd-hacks')" class="w-full text-[10px] font-semibold text-slate-300 bg-slate-800/80 hover:bg-slate-700/80 py-2 rounded-lg transition-all">
+                            📖 Xem Mục Lục
+                        </button>
+                        <a href="https://innerroletherapy.com" target="_blank" class="block w-full text-center text-[10px] font-bold text-white bg-brand-600 hover:bg-brand-500 py-2 rounded-lg transition-all">
+                            Đặt Mua Ngay ➔
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Part 2: ADHD và Nghề Nghiệp -->
+        <div class="mb-16">
+            <div class="flex items-center space-x-3 mb-6">
+                <span class="text-2xl">💼</span>
+                <h3 class="text-xl font-bold text-white">ADHD Và Nghề Nghiệp</h3>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Book 5: Cẩm nang Founder & Freelancer -->
+                <div class="rounded-2xl glass-panel border border-slate-800/80 p-5 flex flex-col justify-between hover:border-brand-500/30 transition-all shadow-lg col-span-1 md:col-span-1">
+                    <div class="space-y-4">
+                        <div class="h-44 bg-gradient-to-r from-emerald-950 to-emerald-800 rounded-lg flex items-center justify-center p-3 relative overflow-hidden shadow-inner">
+                            <div class="text-center space-y-1">
+                                <h4 class="text-xs font-black text-white leading-tight">FOUNDER & FREELANCER</h4>
+                                <p class="text-[7px] text-slate-300">Sống sót & thịnh vượng không dùng thuốc</p>
+                            </div>
+                        </div>
+                        <h4 class="text-md font-bold text-white">Cẩm Nang Sống Sót Founder/Freelancer</h4>
+                        <p class="text-xs text-slate-400 font-light leading-relaxed line-clamp-3">
+                            Tài liệu vàng ròng dành riêng cho nhà khởi nghiệp và người làm tự do có hệ thần kinh đa dạng. Thiết lập quy trình, tối ưu AI và vận hành dòng tiền vững vàng. Reference: "[ADHDTICHCUC-CO] Cẩm nang Sống sót & Thịnh vượng dành cho Founder, Freelancer có ADHD_2.pdf".
+                        </p>
+                    </div>
+                    <div class="mt-4 space-y-2">
+                        <button onclick="openToC('founder-freelancer')" class="w-full text-[10px] font-semibold text-slate-300 bg-slate-800/80 hover:bg-slate-700/80 py-2 rounded-lg transition-all">
+                            📖 Xem Mục Lục
+                        </button>
+                        <a href="https://innerroletherapy.com" target="_blank" class="block w-full text-center text-[10px] font-bold text-white bg-brand-600 hover:bg-brand-500 py-2 rounded-lg transition-all">
+                            Đặt Mua Ngay ➔
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Ad Banner Space / Career insight for ADHD -->
+                <div class="rounded-2xl bg-gradient-to-br from-brand-950/40 to-slate-900 border border-brand-500/10 p-6 flex flex-col justify-between col-span-1 md:col-span-2">
+                    <div class="space-y-3">
+                        <span class="text-xs font-bold text-brand-400 tracking-wider">HỆ THẦN KINH THỢ SĂN</span>
+                        <h4 class="text-lg font-black text-white leading-tight">Tại sao bộ não ADHD sinh ra là để làm chủ hoặc làm Freelancer?</h4>
+                        <p class="text-xs text-slate-300 font-light leading-relaxed">
+                            Môi trường công sở gò bó 9-to-5 là thiên đường của "Farmer" (người nông dân kiên nhẫn). Nhưng bạn là một "Hunter" (thợ săn) thực thụ. Bạn khao khát Dopamine từ sự mới mẻ, thử thách và kết quả nhanh chóng. Bộ não thợ săn cấu hình khủng của bạn sẽ thăng hoa rực rỡ nhất khi bạn biết cách vận hành một "bộ não phụ" bằng công cụ số và tự động hóa.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 pt-4">
+                        <span class="text-[10px] bg-slate-800 text-slate-300 px-2 py-1 rounded">#KhôngDùngThuốc</span>
+                        <span class="text-[10px] bg-slate-800 text-slate-300 px-2 py-1 rounded">#DopamineLànhMạnh</span>
+                        <span class="text-[10px] bg-slate-800 text-slate-300 px-2 py-1 rounded">#TựĐộngHóa</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Part 3: Dành cho phụ huynh -->
+        <div>
+            <div class="flex items-center space-x-3 mb-6">
+                <span class="text-2xl">👪</span>
+                <h3 class="text-xl font-bold text-white">Dành Cho Phụ Huynh</h3>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Book 6: Cẩm nang Phụ huynh -->
+                <div class="rounded-2xl glass-panel border border-slate-800/80 p-5 flex flex-col justify-between hover:border-brand-500/30 transition-all shadow-lg">
+                    <div class="space-y-4">
+                        <div class="h-44 bg-gradient-to-r from-amber-950 to-yellow-900 rounded-lg flex items-center justify-center p-3 relative overflow-hidden shadow-inner">
+                            <div class="text-center space-y-1">
+                                <h4 class="text-xs font-black text-white leading-tight">ĐỒNG HÀNH CÙNG CON</h4>
+                                <p class="text-[7px] text-amber-300">Cẩm nang đồng hành & nuôi dạy con ADHD</p>
+                            </div>
+                        </div>
+                        <h4 class="text-md font-bold text-white">Cẩm Nang Đồng Hành Nuôi Dạy Con</h4>
+                        <p class="text-xs text-slate-400 font-light leading-relaxed line-clamp-3">
+                            Hướng dẫn dành riêng cho cha mẹ có con mắc ADHD hoặc hội chứng tự kỷ (ASD). Hiểu đứa trẻ bên trong con, kỷ luật không đòn roi và định hướng học tập hạnh phúc.
+                        </p>
+                    </div>
+                    <div class="mt-4 space-y-2">
+                        <button onclick="openToC('phu-huynh')" class="w-full text-[10px] font-semibold text-slate-300 bg-slate-800/80 hover:bg-slate-700/80 py-2 rounded-lg transition-all">
+                            📖 Xem Mục Lục
+                        </button>
+                        <a href="https://innerroletherapy.com" target="_blank" class="block w-full text-center text-[10px] font-bold text-white bg-brand-600 hover:bg-brand-500 py-2 rounded-lg transition-all">
+                            Tải Tài Liệu ➔
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Parental Advice space -->
+                <div class="rounded-2xl bg-gradient-to-br from-slate-900/60 to-dark-900 border border-slate-800 p-6 flex flex-col justify-between col-span-1 md:col-span-2">
+                    <div class="space-y-3">
+                        <span class="text-xs font-bold text-amber-400 tracking-wider">LỜI KHUYÊN DÀNH CHO CHA MẸ</span>
+                        <h4 class="text-lg font-black text-white leading-tight">Nuôi dạy con có ADHD không cần dùng thuốc</h4>
+                        <p class="text-xs text-slate-300 font-light leading-relaxed">
+                            Mã gen Đa dạng thần kinh được thừa hưởng từ dòng dõi của những người dẫn đầu. Con của bạn không hề lười biếng hay bướng bỉnh, con chỉ là một "Thợ săn" nhỏ bé đang bị gò ép trong hệ thống giáo dục kiểu "Nông dân". Hãy học cách đồng hành cùng con bằng tình yêu thương thấu hiểu, giúp con khám phá ra siêu năng lực tập trung thay vì áp đặt bằng đòn roi vô ích.
+                        </p>
+                    </div>
+                    <div class="text-xs text-slate-400 italic">
+                        "Có những đứa trẻ không ngoan theo cách thông thường, vì chúng sinh ra để trở thành những người xuất chúng." — Trần Nhật Minh
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="py-16 px-4 bg-slate-900/20 border-t border-slate-900">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <span class="text-xs font-bold text-brand-500 tracking-widest uppercase">CÙNG CHIA SẺ & GIAO LƯU</span>
+                <h2 class="text-3xl font-black mt-2 tracking-tight">CỘNG ĐỒNG ADHD TÍCH CỰC</h2>
+                <p class="text-slate-400 mt-2 text-sm max-w-md mx-auto">Nơi kết nối hàng vạn người trưởng thành, phụ huynh có chung trải nghiệm Đa dạng thần kinh tại Việt Nam.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Facebook Card -->
+                <div class="p-6 rounded-3xl glass-panel border border-slate-800 flex flex-col justify-between hover:border-brand-500/20 transition-all shadow-xl group">
+                    <div class="space-y-3">
+                        <div class="w-12 h-12 rounded-2xl bg-blue-600/20 text-blue-400 flex items-center justify-center text-2xl group-hover:scale-105 transition-transform">
+                            👥
+                        </div>
+                        <h4 class="text-lg font-bold text-white">Group Facebook Hỗ Trợ</h4>
+                        <p class="text-xs text-slate-400 font-light leading-relaxed">
+                            Cộng đồng tiên phong chia sẻ kiến thức, tự trị liệu không dùng thuốc, giải đáp các thắc mắc đời thường của người có ADHD/AuDHD.
+                        </p>
+                    </div>
+                    <a href="https://facebook.com/groups/adhdtichcuc" target="_blank" class="mt-6 block w-full text-center bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs py-3 rounded-xl transition-all shadow-md">
+                        Tham Gia Nhóm Người Lớn ➔
+                    </a>
+                </div>
+
+                <!-- Facebook Parenting Card -->
+                <div class="p-6 rounded-3xl glass-panel border border-slate-800 flex flex-col justify-between hover:border-brand-500/20 transition-all shadow-xl group">
+                    <div class="space-y-3">
+                        <div class="w-12 h-12 rounded-2xl bg-amber-600/20 text-amber-400 flex items-center justify-center text-2xl group-hover:scale-105 transition-transform">
+                            👪
+                        </div>
+                        <h4 class="text-lg font-bold text-white">Cộng Đồng Phụ Huynh</h4>
+                        <p class="text-xs text-slate-400 font-light leading-relaxed">
+                            Nơi phụ huynh chia sẻ kinh nghiệm đồng hành và nuôi dạy con cái mắc chứng Đa dạng thần kinh không dùng đòn roi, bạo lực.
+                        </p>
+                    </div>
+                    <a href="https://facebook.com/groups/adhdtichcuc.parenting" target="_blank" class="mt-6 block w-full text-center bg-amber-600 hover:bg-amber-500 text-white font-bold text-xs py-3 rounded-xl transition-all shadow-md">
+                        Tham Gia Nhóm Phụ Huynh ➔
+                    </a>
+                </div>
+
+                <!-- Zalo Support Card -->
+                <div class="p-6 rounded-3xl glass-panel border border-slate-800 flex flex-col justify-between hover:border-brand-500/20 transition-all shadow-xl group">
+                    <div class="space-y-3">
+                        <div class="w-12 h-12 rounded-2xl bg-cyan-600/20 text-cyan-400 flex items-center justify-center text-2xl group-hover:scale-105 transition-transform">
+                            💬
+                        </div>
+                        <h4 class="text-lg font-bold text-white">Hỗ Trợ Trực Tiếp Qua Zalo</h4>
+                        <p class="text-xs text-slate-400 font-light leading-relaxed">
+                            Kênh thông tin liên hệ trực tiếp của đội ngũ hỗ trợ ADHD Tích Cực, đăng ký tư vấn 1-1 cùng nhà sáng lập Trần Nhật Minh.
+                        </p>
+                    </div>
+                    <a href="https://zalo.me/386230000" target="_blank" class="mt-6 block w-full text-center bg-brand-600 hover:bg-brand-500 text-white font-bold text-xs py-3 rounded-xl transition-all shadow-md">
+                        Liên Hệ Zalo: 038.623.0000 ➔
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diagnosis Form Section -->
+    <section id="diagnosis" class="py-16 px-4 max-w-3xl mx-auto border-t border-slate-900">
+        <div class="glass-panel rounded-3xl p-6 md:p-8 border border-slate-800/80 shadow-2xl relative">
+            <div id="diagnosisFormState">
+                <div class="flex items-center space-x-3 mb-2">
+                    <span class="text-2xl">🩺</span>
+                    <h3 class="text-2xl font-black text-white">Đăng ký chẩn đoán chính thức</h3>
+                </div>
+                <p class="text-xs text-slate-400 mb-6">Đăng ký chẩn đoán ADHD chính thức với văn phòng Tham vấn & Trị liệu Tâm lý Hồng Thu.</p>
+                
+                <form onsubmit="handleDiagnosisSubmit(event)" class="space-y-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-400 mb-1">Họ và Tên *</label>
+                            <input type="text" required id="diagName" placeholder="Nguyễn Văn A" class="w-full bg-dark-950 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-brand-500 transition-all">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-400 mb-1">Năm sinh *</label>
+                            <input type="number" required id="diagYob" placeholder="1995" class="w-full bg-dark-950 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-brand-500 transition-all">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-400 mb-1">Số điện thoại Zalo *</label>
+                            <input type="tel" required id="diagPhone" placeholder="0901234567" class="w-full bg-dark-950 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-brand-500 transition-all">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-400 mb-1">Email *</label>
+                            <input type="email" required id="diagEmail" placeholder="example@gmail.com" class="w-full bg-dark-950 border border-slate-800 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-brand-500 transition-all">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-400 mb-1">Bạn đang gặp phải những vấn đề lớn nhất nào? (Chọn nhiều mục) *</label>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2">
+                            <label class="flex items-center space-x-2 text-xs text-slate-300">
+                                <input type="checkbox" name="symptoms" value="MatTapTrung" class="rounded text-brand-600 focus:ring-brand-500 bg-dark-950 border-slate-800">
+                                <span>Mất tập trung, sương mù não</span>
+                            </label>
+                            <label class="flex items-center space-x-2 text-xs text-slate-300">
+                                <input type="checkbox" name="symptoms" value="TriHoan" class="rounded text-brand-600 focus:ring-brand-500 bg-dark-950 border-slate-800">
+                                <span>Trì hoãn, lười biếng cực đoan</span>
+                            </label>
+                            <label class="flex items-center space-x-2 text-xs text-slate-300">
+                                <input type="checkbox" name="symptoms" value="BocDong" class="rounded text-brand-600 focus:ring-brand-500 bg-dark-950 border-slate-800">
+                                <span>Hành động bốc đồng, cảm tính</span>
+                            </label>
+                            <label class="flex items-center space-x-2 text-xs text-slate-300">
+                                <input type="checkbox" name="symptoms" value="LoAu" class="rounded text-brand-600 focus:ring-brand-500 bg-dark-950 border-slate-800">
+                                <span>Lo âu, trầm cảm kéo dài</span>
+                            </label>
+                            <label class="flex items-center space-x-2 text-xs text-slate-300">
+                                <input type="checkbox" name="symptoms" value="RoiLoanGiacNgu" class="rounded text-brand-600 focus:ring-brand-500 bg-dark-950 border-slate-800">
+                                <span>Rối loạn giấc ngủ, khó ngủ</span>
+                            </label>
+                            <label class="flex items-center space-x-2 text-xs text-slate-300">
+                                <input type="checkbox" name="symptoms" value="KhoGiaoTiep" class="rounded text-brand-600 focus:ring-brand-500 bg-dark-950 border-slate-800">
+                                <span>Khó hòa nhập, nhạy cảm xã hội</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-400 mb-1">Mô tả cụ thể hơn về khó khăn hiện tại của bạn:</label>
+                        <textarea id="diagMessage" rows="3" placeholder="Chia sẻ một chút về mớ hỗn độn của bạn..." class="w-full bg-dark-950 border border-slate-800 rounded-xl px-4 py-2 text-sm text-white focus:outline-none focus:border-brand-500 transition-all"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full bg-brand-600 hover:bg-brand-500 text-white font-bold py-3 rounded-xl shadow-lg transition-all text-sm">
+                        Gửi Đăng Ký Chẩn Đoán ➔
+                    </button>
+                </form>
+            </div>
+
+            <!-- Diagnostic Success State -->
+            <div id="diagnosisSuccessState" class="hidden text-center py-8 space-y-6">
+                <span class="text-5xl">📝</span>
+                <h3 class="text-2xl font-bold text-brand-500">Đã Nhận Thông Tin Đăng Ký!</h3>
+                <p class="text-sm text-slate-300 max-w-sm mx-auto leading-relaxed">
+                    Cảm ơn bạn đã dũng cảm chia sẻ. Đội ngũ văn phòng Tham vấn & Trị liệu Tâm lý Hồng Thu sẽ tiếp nhận thông tin và liên hệ trực tiếp qua số Zalo <strong id="successPhone" class="text-white font-semibold"></strong> trong vòng 24h tới để sắp xếp buổi chẩn đoán.
+                </p>
+                <button onclick="resetDiagnosisForm()" class="bg-slate-800 hover:bg-slate-700 text-white font-bold px-6 py-2 rounded-xl transition-all text-sm">
+                    Gửi Khảo Sát Mới
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal 1: Free Resource Download -->
+    <div id="downloadModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-dark-950/95 hidden transition-all duration-300">
+        <div class="w-full max-w-md bg-dark-900 rounded-3xl border border-slate-800 shadow-2xl overflow-hidden p-6 relative">
+            <button onclick="closeModal('downloadModal')" class="absolute top-4 right-4 text-slate-400 hover:text-white text-xl">✕</button>
+            
+            <div id="downloadFormState">
+                <span class="text-2xl">🎁</span>
+                <h3 class="text-xl font-bold mt-2 text-white">Tải Tài Nguyên Miễn Phí</h3>
+                <p class="text-xs text-slate-400 mt-1 mb-6">Nhập email của bạn để tải bộ tài liệu hướng dẫn "5 bước thoát khỏi trì hoãn" bản đầy đủ dạng PDF.</p>
+                
+                <form onsubmit="handleDownloadSubmit(event)" class="space-y-4">
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-400 mb-1">Địa chỉ Email của bạn *</label>
+                        <input type="email" required id="downloadEmail" placeholder="example@gmail.com" class="w-full bg-dark-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-500 transition-all">
+                    </div>
+                    <div class="flex items-center">
+                        <input type="checkbox" checked required id="downloadAgree" class="rounded text-brand-600 focus:ring-brand-500 h-4 w-4 bg-dark-950 border-slate-800">
+                        <label for="downloadAgree" class="ml-2 text-[10px] text-slate-400">Tôi đồng ý đăng ký nhận bản tin chia sẻ từ ADHD Tích Cực.</label>
+                    </div>
+                    <button type="submit" class="w-full bg-brand-600 hover:bg-brand-500 text-white font-bold py-3 rounded-xl shadow-lg transition-all">
+                        Nhận Tài Nguyên Ngay ➔
+                    </button>
+                </form>
+            </div>
+
+            <!-- Download Success State -->
+            <div id="downloadSuccessState" class="hidden text-center py-6 space-y-6">
+                <span class="text-5xl">🎉</span>
+                <h3 class="text-2xl font-bold text-brand-500">Cảm Ơn Bạn!</h3>
+                <p class="text-sm text-slate-300 max-w-sm mx-auto leading-relaxed">
+                    Đường link tải tài liệu đã được gửi trực tiếp đến hòm thư của bạn. Vui lòng kiểm tra email (cả hộp thư rác/spam nếu không thấy ở hộp thư chính).
+                </p>
+                <button onclick="closeModal('downloadModal')" class="bg-slate-800 hover:bg-slate-700 text-white font-bold px-6 py-2 rounded-xl transition-all text-sm">
+                    Đóng Cửa Sổ
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2: Table of Contents & Book Details -->
+    <div id="tocModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-dark-950/95 hidden transition-all duration-300">
+        <div class="w-full max-w-xl bg-dark-900 rounded-3xl border border-slate-800 shadow-2xl overflow-hidden p-6 relative max-h-[85vh] overflow-y-auto">
+            <button onclick="closeModal('tocModal')" class="absolute top-4 right-4 text-slate-400 hover:text-white text-xl">✕</button>
+            
+            <div id="tocContent">
+                <!-- Dynamically populated contents go here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-12 px-4 border-t border-slate-900 bg-slate-950 text-center">
+        <div class="max-w-4xl mx-auto space-y-6">
+            <div class="flex justify-center items-center space-x-2">
+                <div class="w-6 h-6 rounded bg-gradient-to-tr from-brand-500 to-emerald-400 flex items-center justify-center font-bold text-white text-xs">
+                    A+
+                </div>
+                <span class="font-extrabold text-sm tracking-wider">ADHD TÍCH CỰC</span>
+            </div>
+            <p class="text-xs text-slate-400 max-w-md mx-auto font-light leading-relaxed">
+                Dự án nghiên cứu và phát triển các giải pháp lan tỏa nhận thức, hỗ trợ cải thiện sức khỏe tâm lý dành cho người ADHD, AuDHD, người thân và gia đình.
+            </p>
+            <div class="text-xs text-slate-500 space-y-1">
+                <p>Copyright © 2026 ADHD Tích Cực. All rights reserved.</p>
+                <p>Địa chỉ văn phòng liên hệ: Hà Nội, Việt Nam | Email: adhdtichcuc@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Interactions -->
+    <script>
+        // Modal Handling
+        function openModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+
+            // Reset form upon close
+            if(modalId === 'downloadModal') {
+                setTimeout(() => {
+                    document.getElementById('downloadFormState').classList.remove('hidden');
+                    document.getElementById('downloadSuccessState').classList.add('hidden');
+                    document.getElementById('downloadEmail').value = '';
+                }, 300);
+            }
+        }
+
+        // Handle Download Submit (collect email)
+        function handleDownloadSubmit(event) {
+            event.preventDefault();
+            const email = document.getElementById('downloadEmail').value;
+            if (email) {
+                console.log("Email captured for resource download:", email);
+                
+                // Switch states
+                document.getElementById('downloadFormState').classList.add('hidden');
+                document.getElementById('downloadSuccessState').classList.remove('hidden');
+            }
+        }
+
+        // Handle Diagnosis Form Submit
+        function handleDiagnosisSubmit(event) {
+            event.preventDefault();
+            const name = document.getElementById('diagName').value;
+            const phone = document.getElementById('diagPhone').value;
+            
+            if (name && phone) {
+                console.log("Diagnostic registration received for:", name, phone);
+                document.getElementById('successPhone').innerText = phone;
+                
+                // Switch states
+                document.getElementById('diagnosisFormState').classList.add('hidden');
+                document.getElementById('diagnosisSuccessState').classList.remove('hidden');
+            }
+        }
+
+        function resetDiagnosisForm() {
+            document.getElementById('diagName').value = '';
+            document.getElementById('diagYob').value = '';
+            document.getElementById('diagPhone').value = '';
+            document.getElementById('diagEmail').value = '';
+            document.getElementById('diagMessage').value = '';
+            
+            const checkboxes = document.getElementsByName('symptoms');
+            for(let checkbox of checkboxes) {
+                checkbox.checked = false;
+            }
+
+            document.getElementById('diagnosisFormState').classList.remove('hidden');
+            document.getElementById('diagnosisSuccessState').classList.add('hidden');
+        }
+
+        // Database of Tables of Contents (ToC)
+        const tocData = {
+            'tro-ve-tu-hon-loan': {
+                title: "Trở Về Từ Hỗn Loạn",
+                subtitle: "Giải mã 13 biểu hiện tâm lý cực đoan và 6 hội chứng rối loạn thường gặp",
+                desc: "Cuốn sách độc bản giúp người có hệ thần kinh đa dạng hiểu rõ cơ chế vận hành của bộ não thợ săn, từ bỏ sự cầu toàn tiêu cực, tự chịu trách nhiệm và áp dụng rành rẽ 21 ngày chuyển hóa bản thân.",
+                toc: [
+                    "CHƯƠNG I: MỞ ĐẦU (Kẻ trở về từ hỗn loạn, Lưu ý khi đọc sách, Cấu trúc sách...)",
+                    "CHƯƠNG II: BẢN CHẤT CỦA CÁC HỘI CHỨNG TÂM LÝ (Vấn đề tâm lý là sự mất cân bằng, Sứ mệnh thợ săn và nhà nông, Cuộc khủng hoảng thừa...)",
+                    "CHƯƠNG III: GIẢI MÃ CÁC BIỂU HIỆN TÂM LÝ Ở NGƯỜI ĐA DẠNG THẦN KINH (ADHD, ASD, OCD, Bipolar, BPD, Tic & Tourette, Đãng trí...)",
+                    "CHƯƠNG IV: QUẢN TRỊ TÂM TRÍ BẰNG PHƯƠNG PHÁP INNER ROLE THERAPY - TRỊ LIỆU NỘI VAI (Nguyên tắc trị liệu tự thân, Phân tách bạn và nhân vật, Kết nối bản thể...)",
+                    "CHƯƠNG V: HƯỚNG DẪN THỰC HÀNH CHI TIẾT - 21 NGÀY CHUYỂN HÓA BẰNG IRT (Khung lịch trình, Luyện tập sự chú tâm, 10 bài tập thực hành...)",
+                    "CHƯƠNG VI: ỨNG DỤNG IRT TRONG TRỊ LIỆU CÁC VẤN ĐỀ TÂM LÝ (Kiểm soát lo âu, Cải thiện sương mù não, Làm dịu cơn nóng giận, Giấc ngủ ngon...)"
+                ]
+            },
+            '160-faq': {
+                title: "ADHD Ở Người Trưởng Thành - 160 FAQ Ebook",
+                subtitle: "160 câu hỏi & trả lời tháo gỡ thắc mắc để chung sống tốt hơn cùng ADHD",
+                desc: "Một kho lưu trữ tri thức cực kỳ dễ hiểu dưới dạng hỏi đáp, giải quyết tất cả những câu hỏi thầm kín nhất của người có ADHD.",
+                toc: [
+                    "Phần 1: Chẩn đoán và những nghi ngờ cơ bản (Liệu tôi có lười biếng? Phân biệt ADHD với tính cách lập dị, Hướng nội...)",
+                    "Phần 2: Nguyên nhân và Khoa học Não bộ (Cơ chế sinh học dopamine, Yếu tố di truyền...)",
+                    "Phần 3: Các triệu chứng trong đời sống hàng ngày (Mất tập trung, Trì hoãn, Hyperfocus, Stimming, Nói nhanh, Bốc đồng...)",
+                    "Phần 4: Nhận dạng, Kỳ thị và Tương lai (ADHD là Siêu năng lực hay Khuyết tật? Sự phản ứng của xã hội và gia đình...)",
+                    "Phần 5: ADHD trong các bối cảnh khác nhau (Trong công việc, Nhảy việc, Mối quan hệ yêu đương, Học tập...)",
+                    "Phần 6: Điều trị và Quản lý (Trị liệu Nhận thức Hành vi, Vai trò của thiền & chánh niệm, Vệ sinh giấc ngủ...)",
+                    "Phần 7: Các bệnh đi kèm (Lo âu, Trầm cảm, Rối loạn lưỡng cực Bipolar, Tự kỷ ASD...)",
+                    "Phần 8: Những câu hỏi nhỏ, ngẫu nhiên và kỳ quặc (Ghét nghe điện thoại, Thích mưa bão, Trí nhớ âm nhạc...)"
+                ]
+            },
+            'founder-freelancer': {
+                title: "Cẩm Nang Sống Sót & Thịnh Vượng Cho Founder & Freelancer Có ADHD",
+                subtitle: "Tối ưu hóa hệ điều hành não bộ thợ săn trong môi trường kinh doanh tự do",
+                desc: "Cuốn cẩm nang đặc biệt hướng dẫn chi tiết cách thức thiết lập công cụ, tự động hóa quy trình, quản lý dòng tiền và vượt thoát cơn bão sập nguồn.",
+                toc: [
+                    "Phần 1: Tái định nghĩa hệ điều hành của bạn (Hunter vs Farmer, Ảo tưởng tự do, Chiếc xô dopamine bị thủng...)",
+                    "Phần 2: Chiến thuật điều hành trong sự hỗn loạn (Time blindness, Quy tắc số Pi x3, Hội chứng Vật thể lấp lánh, RSD...)",
+                    "Phần 3: Xây dựng bộ não phụ: Công cụ & hệ thống (AI làm trợ lý không phán xét, Thiết kế bảng Kanban thay cho To-do list...)",
+                    "Phần 4: Duy trì sự bền bỉ (Hội chứng thức khuya trả thù, Dinh dưỡng nạp Dopamine, Thiết lập ranh giới, Kế hoạch 30 ngày...)"
+                ]
+            },
+            'audhd-hacks': {
+                title: "AuDHD 90 Life Hacks",
+                subtitle: "90 thủ thuật và mẹo sống chung tốt đẹp với Tự kỷ + ADHD",
+                desc: "Khi Tự kỷ muốn ổn định nhưng ADHD muốn bùng nổ, 90 mẹo thực chiến này là chiếc phao cứu sinh để bạn quản lý đời sống mượt mà nhất.",
+                toc: [
+                    "Chương 1: Cuộc sống sinh hoạt & Chăm sóc bản thân (Chìa khóa xe, Quần áo khô, Trì hoãn đi tắm, Ăn uống an toàn...)",
+                    "Chương 2: Quản lý năng lượng & Xử lý cảm giác (Kẹt xe giờ cao điểm, Tiếng ồn văn phòng, Ánh sáng đèn huỳnh quang...)",
+                    "Chương 3: Học tập & Làm việc (Cày deadline phút chót, Quản lý tab trình duyệt, Lỡ luồng tư duy...)",
+                    "Chương 4: Giao tiếp xã hội & Các mối quan hệ (Oversharing, Nói thật thẳng thắn bluntness, Meltdown, RSD...)",
+                    "Chương 5: Quản lý tài chính (Free trial tự trừ tiền, Hũ tài chính tiết kiệm, Mua trùng lặp đồ...)",
+                    "Chương 6: Kết nối cơ thể & Sơ cứu cảm xúc (Nhịn tiểu hyperfocus, Quét cơ thể Body scan, Sụp đổ Meltdown...)"
+                ]
+            },
+            'suong-mu-nao': {
+                title: "Sương Mù Não: Kẻ Hủy Diệt Thầm Lặng",
+                subtitle: "Phục hồi sự sắc bén tinh thần bằng giải pháp tự nhiên",
+                desc: "Lý giải tường nhận trạng thái mất tập trung, mệt mỏi tinh thần sau biến cố hoặc do nghiện ngập dopamine nhanh, rẻ. Cung cấp lộ trình thanh lọc tinh thần vững chắc.",
+                toc: [
+                    "Chương I: Sương mù não là gì? (Bản chất sự phân tán, Thức tỉnh khỏi sương mù)",
+                    "Chương II: Điều gì gây ra sương mù não? (Khủng hoảng dư thừa dopamine, Cách ly xã hội, Thiếu ngủ...)",
+                    "Chương III: Ai dễ mắc sương mù não? (Não bộ đa dạng thần kinh, Sự nhạy cảm nơ-ron)",
+                    "Chương IV: Hậu quả thầm lặng (Suy kiệt sự nghiệp, Sứt mẻ mối quan hệ, Mất phương hướng...)",
+                    "Chương V: Cách nhận biết sương mù não (15 biểu hiện điển hình trong thực tế cuộc sống)",
+                    "Chương VI: Giải pháp tổng thể (Lối sống thuận tự nhiên, 9 hoạt động thanh lọc & phục hồi hàng ngày)",
+                    "Chương VII: Hỗ trợ người thân vượt qua sương mù não (Hướng dẫn dành riêng cho gia đình)"
+                ]
+            },
+            'phu-huynh': {
+                title: "Cẩm Nang Đồng Hành & Nuôi Dạy Con",
+                subtitle: "Định hướng nuôi dạy và thấu hiểu bộ não thợ săn nhỏ tuổi",
+                desc: "Tài liệu thiết yếu hỗ trợ các bậc phụ huynh tái định nghĩa phong cách dạy con trẻ đa dạng thần kinh không bạo lực, tạo kết nối gia đình và trường lớp mượt mà.",
+                toc: [
+                    "Chương I: Nhận diện đứa trẻ đa dạng thần kinh (Hunter vs Farmer trong gia đình)",
+                    "Chương II: Thiết lập ranh giới yêu thương không đòn roi (Cơ chế cảm xúc và giao tiếp tích cực)",
+                    "Chương III: Giao tiếp & đồng hành cùng con tại trường học (Liên kết giáo viên và định hướng học tập)",
+                    "Chương IV: Thực hành 21 ngày làm bạn cùng con (Lịch trình kết nối, lắng nghe chủ động)"
+                ]
+            }
+        };
+
+        // Open Table of Contents modal and populate dynamically
+        function openToC(bookKey) {
+            const data = tocData[bookKey];
+            if (!data) return;
+
+            const contentContainer = document.getElementById('tocContent');
+            let tocListHtml = '';
+            data.toc.forEach(item => {
+                tocListHtml += `<li class="py-2.5 border-b border-slate-800/80 text-xs sm:text-sm text-slate-300 flex items-start">
+                    <span class="text-brand-500 mr-2">✔</span>
+                    <span>${item}</span>
+                </li>`;
+            });
+
+            contentContainer.innerHTML = `
+                <span class="text-[10px] font-bold text-brand-500 tracking-wider uppercase">MỤC LỤC CHI TIẾT</span>
+                <h3 class="text-2xl font-black text-white mt-1 leading-tight">${data.title}</h3>
+                <h4 class="text-sm font-semibold text-slate-300 mt-1 italic">${data.subtitle}</h4>
+                <p class="text-xs text-slate-400 mt-3 mb-6 font-light leading-relaxed">${data.desc}</p>
+                
+                <div class="bg-dark-950 rounded-2xl p-4 border border-slate-800/80 max-h-60 overflow-y-auto mb-6">
+                    <ul class="divide-y divide-slate-800">
+                        ${tocListHtml}
+                    </ul>
+                </div>
+
+                <div class="flex items-center justify-between gap-4">
+                    <button onclick="closeModal('tocModal')" class="text-xs font-semibold text-slate-400 hover:text-white px-4 py-2 rounded-xl transition-all">
+                        Đóng Lại
+                    </button>
+                    <a href="https://innerroletherapy.com" target="_blank" class="bg-brand-600 hover:bg-brand-500 text-white font-bold text-xs px-6 py-3 rounded-xl transition-all">
+                        Tải Tài Liệu ➔
+                    </a>
+                </div>
+            `;
+
+            openModal('tocModal');
+        }
+
+        // Close modal clicking outside content panel
+        window.onclick = function(event) {
+            const modals = ['downloadModal', 'tocModal'];
+            modals.forEach(modalId => {
+                const modal = document.getElementById(modalId);
+                if (event.target === modal) {
+                    closeModal(modalId);
+                }
+            });
+        }
+    </script>
+</body>
+</html>
